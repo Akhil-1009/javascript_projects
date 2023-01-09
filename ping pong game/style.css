@@ -1,0 +1,36 @@
+#container{
+     position: absolute; 
+    
+}
+body{
+    background: rgb(238,174,202);
+background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,221,233,1) 100%);
+}
+#rod1,#rod2{
+    width: 200px;
+    height: 20px;
+    position: fixed;
+    border-radius: 25%;
+    left: 50%;
+    text-align: center;
+    color:white;
+    font-weight: bold;
+    /* box-shadow: 5px 5px rgba(249, 246, 246, 0.533); */
+}
+#ball{
+    width: 20px;
+    height: 20px;
+    background-color: brown;
+    position: absolute;
+    top: 20px;
+    left: 57%;
+    border-radius: 50%;
+}
+#rod1{
+    background-color:black;
+    top: 0px;
+}
+#rod2{
+    background-color: black;
+    bottom: 0px;
+}
